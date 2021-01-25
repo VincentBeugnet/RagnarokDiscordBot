@@ -23,4 +23,4 @@ client.on("message", function(message) {
 });
 
 
-client.login(BOT_TOKEN).then();
+client.login(process.env.BOT_TOKEN).then();
