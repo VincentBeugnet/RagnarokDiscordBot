@@ -1,7 +1,5 @@
 const Discord = require("discord.js");
 
-const config = require("./config.json");
-
 const power = require("./commands/power")
 const list = require("./commands/list")
 
@@ -25,4 +23,4 @@ client.on("message", function(message) {
 });
 
 
-client.login(config.BOT_TOKEN).then();
+client.login(BOT_TOKEN).then();
