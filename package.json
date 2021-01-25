@@ -2,7 +2,7 @@
   "name": "ragnarok",
   "version": "1.0.0",
   "description": "Discord bot for VikingsFR Battle Events",
-  "main": "bot.js",
+  "main": "./app/bot.js",
   "scripts": {
     "start": "node bot.js"
   },
