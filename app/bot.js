@@ -1,9 +1,9 @@
 const Discord = require("discord.js");
 
-const config = require("./config.json");
+const config = require("../config.json");
 
-const power = require("./commands/power")
-const list = require("./commands/list")
+const power = require("../commands/power")
+const list = require("../commands/list")
 
 const client = new Discord.Client();
 client.once('ready', () => {
