@@ -3,7 +3,7 @@ const fetch = require("node-fetch")
 
 module.exports = message => {
     const getList = async () => {
-        const url = 'https://questland-public-api-dot-questland-tools.uc.r.appspot.com/guild/plan/vikingsfr'
+        const url = 'https://questland-public-api-dot-questland-tools.uc.r.appspot.com/guild/plan/Vikings %26 SKDN'
         const params = '?' + new URLSearchParams({server: 'EUROPE'})
         return await fetch(url + params)
             .then(res => res.json())
