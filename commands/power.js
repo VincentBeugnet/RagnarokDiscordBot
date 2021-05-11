@@ -21,7 +21,7 @@ module.exports = message => {
                 const embedMessage = new Discord.MessageEmbed()
                     .setAuthor("BE Power")
                     .setColor('#0099ff')
-                    .setTitle('Classement VikingsFR Battle Event Power')
+                    .setTitle('Classement Vikings & SKDN Battle Event Power')
                     .addFields(
                     { name: 'Nom', value: names, inline: true },
                         { name: 'Battle Event Power', value: powers, inline: true }
