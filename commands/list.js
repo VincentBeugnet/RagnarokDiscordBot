@@ -17,7 +17,7 @@ module.exports = message => {
                 const embedMessage = new Discord.MessageEmbed()
                     .setAuthor("BE Liste")
                     .setColor('#0099ff')
-                    .setTitle('Liste ordonnée des VikingsFR participant au Battle Event')
+                    .setTitle('Liste ordonnée des Vikings & SKDN participant au Battle Event')
                     .setDescription(memList)
 
                 message.channel.send(embedMessage).then()
